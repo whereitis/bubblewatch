@@ -1,6 +1,6 @@
 {
- "built_utc": "2026-11-27 06:29 UTC",
- "today": "2026-11-26",
+ "built_utc": "2026-11-27 23:30 UTC",
+ "today": "2026-11-27",
  "stages": [
   {
    "id": "spark",
@@ -620,7 +620,7 @@
     }
    ],
    "freshness": {
-    "newest": "2026-11-26",
+    "newest": "2026-11-27",
     "age_days": 0,
     "budget_days": 3650,
     "status": "OK"
@@ -4271,7 +4271,7 @@
    ],
    "freshness": {
     "newest": "2026-09-30",
-    "age_days": 57,
+    "age_days": 58,
     "budget_days": 75,
     "status": "OK"
    },
@@ -7886,7 +7886,7 @@
    },
    "freshness": {
     "newest": "2026-10-31",
-    "age_days": 26,
+    "age_days": 27,
     "budget_days": 75,
     "status": "OK"
    },
@@ -10827,7 +10827,7 @@
    ],
    "freshness": {
     "newest": "2026-06-30",
-    "age_days": 149,
+    "age_days": 150,
     "budget_days": 180,
     "status": "OK"
    },
@@ -11243,7 +11243,7 @@
       }
      ],
      "long": true,
-     "note": "From XBRL, through the July 2026 10-Q. The October 2026 release gave 64 days, with longer payment terms for some large buyers."
+     "note": "From XBRL, through the quarter to Jul 26, 2026. The October 2026 release gave 64 days, with longer payment terms for some large buyers."
     }
    ],
    "facts": {
@@ -11253,12 +11253,12 @@
    },
    "freshness": {
     "newest": "2026-10-25",
-    "age_days": 32,
+    "age_days": 33,
     "budget_days": 137,
     "status": "OK"
    },
    "cadence": "Quarterly (Nvidia filings)",
-   "method": "Script + hand read (LLM read in unit 5)",
+   "method": "Script + hand read",
    "title": {
     "en": "Vendor financing",
     "zh": "賣方融資"
@@ -11294,7 +11294,7 @@
     "SEC XBRL company facts",
     "Nvidia 10-Q and 8-K text"
    ],
-   "llm": "Planned, unit 5: one read per company per quarter of the commitments and guarantees tables. Today these were typed in by hand."
+   "llm": "A 10-Q or 10-K is read from its XBRL tags, the numbers the filing itself labels by line and date, and one model read (Opus 5.5) must agree with them. An earnings release (8-K) has no tags, so it is read by two models at once (Opus 5.5 and Sonnet 5.5), every number must be found in a quoted passage, and the two reads must agree. Otherwise the page shows \"read pending\". Filings up to Nov 17, 2026 were typed in by hand. AMD, Oracle and CoreWeave join in a later unit."
   },
   "6": {
    "status": "absent",
@@ -13295,7 +13295,7 @@
         [
          "2026 Q4",
          2026.875,
-         11.05
+         11.06
         ]
        ]
       }
@@ -13384,7 +13384,7 @@
    ],
    "freshness": {
     "newest": "2026-11-25",
-    "age_days": 1,
+    "age_days": 2,
     "budget_days": 7,
     "status": "OK"
    },
@@ -16464,7 +16464,7 @@
    ],
    "freshness": {
     "newest": "2026-11-25",
-    "age_days": 1,
+    "age_days": 2,
     "budget_days": 7,
     "status": "OK"
    },
@@ -16640,89 +16640,89 @@
    "unit": "",
    "value": 2.14,
    "dec": 2,
-   "date": "2026-11-24",
+   "date": "2026-11-26",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "rsp_spy",
    "stage": "price",
    "label": "Equal weight against cap weight, RSP/SPY",
    "unit": "",
-   "value": 0.301,
+   "value": 0.3,
    "dec": 3,
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "policy_direction",
    "stage": "shakeout",
    "label": "2-year yield minus Fed funds, points",
    "unit": "",
-   "value": 0.75,
+   "value": 0.73,
    "dec": 2,
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "ten_year",
    "stage": "shakeout",
    "label": "10-year Treasury yield",
    "unit": "%",
-   "value": 4.91,
+   "value": 4.85,
    "dec": 2,
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "credit",
    "stage": "shakeout",
    "label": "High yield credit spread",
    "unit": "%",
-   "value": 3.72,
+   "value": 3.77,
    "dec": 2,
-   "date": "2026-11-24",
+   "date": "2026-11-26",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "ai_infra_drawdown",
    "stage": "shakeout",
    "label": "AI infrastructure basket, median distance from 52-week high",
    "unit": "%",
-   "value": -49.4,
+   "value": -46.1,
    "dec": 1,
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "ai_infra_below_ma",
    "stage": "shakeout",
    "label": "AI infrastructure names below their 200-day average",
    "unit": "%",
-   "value": 100.0,
+   "value": 93.0,
    "dec": 0,
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   },
   {
    "key": "spx_drawdown",
    "stage": "shakeout",
    "label": "S&P 500, distance from 52-week high",
    "unit": "%",
-   "value": -8.1,
+   "value": -6.7,
    "dec": 1,
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "status": "OK",
-   "run": "2026-11-26T22:30:00+00:00"
+   "run": "2026-11-27T22:30:03+00:00"
   }
  ],
- "macro_runs": 7,
+ "macro_runs": 8,
  "macro_first": "2026-11-25",
  "tops": [
   {
@@ -16783,7 +16783,7 @@
  "spx_now": {
   "month": "2026-11",
   "high": "2026-08",
-  "from_high": -6.5
+  "from_high": -5.1
  },
  "gmo": [
   {
@@ -16917,7 +16917,7 @@
    "monitor": "Page test on every run. The heartbeat stops when a signal is past its age budget or a source fails 3 runs in a row",
    "tested": "Dot-com filings test, 9,600 filings from 1996 to 2003: LAG. No measure led the top.",
    "fresh": {
-    "newest": "2026-11-26",
+    "newest": "2026-11-27",
     "age_days": 0,
     "budget_days": 3650,
     "status": "OK"
@@ -16941,7 +16941,7 @@
    "tested": "History check only: on in the housing build-up and in 2020-22, off at the dot-com top. Not a timing test.",
    "fresh": {
     "newest": "2026-09-30",
-    "age_days": 57,
+    "age_days": 58,
     "budget_days": 75,
     "status": "OK"
    },
@@ -16951,10 +16951,10 @@
      "signals": [
       2
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-24",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-26",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -16962,10 +16962,10 @@
      "signals": [
       2
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-24",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-25",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -16977,7 +16977,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -16988,7 +16988,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2017-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -16999,7 +16999,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17010,7 +17010,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-20",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17021,7 +17021,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17045,7 +17045,7 @@
    "tested": "Rollover flag, frozen rule, unseen data from 1952 to 1996: FAIL by 0.01. Not shown.",
    "fresh": {
     "newest": "2026-10-31",
-    "age_days": 26,
+    "age_days": 27,
     "budget_days": 75,
     "status": "OK"
    },
@@ -17058,7 +17058,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17069,7 +17069,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17081,7 +17081,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17090,10 +17090,10 @@
       3,
       7
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17101,10 +17101,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17112,10 +17112,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17123,10 +17123,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17134,10 +17134,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17145,10 +17145,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17156,10 +17156,10 @@
      "signals": [
       3
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17181,7 +17181,7 @@
    "tested": "Untested.",
    "fresh": {
     "newest": "2026-06-30",
-    "age_days": 149,
+    "age_days": 150,
     "budget_days": 180,
     "status": "OK"
    },
@@ -17195,7 +17195,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17207,7 +17207,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17218,7 +17218,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17229,7 +17229,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17240,7 +17240,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17248,7 +17248,7 @@
   {
    "signal": 5,
    "name": "Vendor financing",
-   "method": "Script + hand read (LLM read in unit 5)",
+   "method": "Script + hand read",
    "cadence": "Quarterly (Nvidia filings)",
    "sources": [
     "SEC XBRL company facts",
@@ -17259,12 +17259,12 @@
     "s05_compare.py"
    ],
    "seconds": 0.04,
-   "llm": "Planned, unit 5: one read per company per quarter of the commitments and guarantees tables. Today these were typed in by hand.",
+   "llm": "A 10-Q or 10-K is read from its XBRL tags, the numbers the filing itself labels by line and date, and one model read (Opus 5.5) must agree with them. An earnings release (8-K) has no tags, so it is read by two models at once (Opus 5.5 and Sonnet 5.5), every number must be found in a quoted passage, and the two reads must agree. Otherwise the page shows \"read pending\". Filings up to Nov 17, 2026 were typed in by hand. AMD, Oracle and CoreWeave join in a later unit.",
    "monitor": "Page test on every run. The heartbeat stops when a signal is past its age budget or a source fails 3 runs in a row",
    "tested": "Untested. One past episode only.",
    "fresh": {
     "newest": "2026-10-25",
-    "age_days": 32,
+    "age_days": 33,
     "budget_days": 137,
     "status": "OK"
    },
@@ -17277,7 +17277,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-26",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17288,7 +17288,7 @@
      "status": "OK",
      "detail": "no filing since the last read",
      "newest": "2026-11-17",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17314,7 +17314,7 @@
    "tested": "Untested.",
    "fresh": {
     "newest": "2026-11-25",
-    "age_days": 1,
+    "age_days": 2,
     "budget_days": 7,
     "status": "OK"
    },
@@ -17328,7 +17328,7 @@
      "status": "UNCHANGED",
      "detail": "0 new days",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17336,10 +17336,10 @@
      "signals": [
       6
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
      "newest": "2026-11-27",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17350,7 +17350,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-27",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17371,13 +17371,13 @@
    "scripts": [
     "s07_trend_page.py"
    ],
-   "seconds": 0.36,
+   "seconds": 0.38,
    "llm": null,
    "monitor": "Page test on every run. The heartbeat stops when a signal is past its age budget or a source fails 3 runs in a row",
    "tested": "Untested.",
    "fresh": {
     "newest": "2026-11-25",
-    "age_days": 1,
+    "age_days": 2,
     "budget_days": 7,
     "status": "OK"
    },
@@ -17388,10 +17388,10 @@
       3,
       7
      ],
-     "status": "UNCHANGED",
+     "status": "OK",
      "detail": "",
-     "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "newest": "2026-11-27",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17403,7 +17403,7 @@
      "status": "UNCHANGED",
      "detail": "0 new days",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17414,7 +17414,7 @@
      "status": "UNCHANGED",
      "detail": "0 new weeks, not published yet: 3",
      "newest": "2026-11-02",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17425,7 +17425,7 @@
      "status": "UNCHANGED",
      "detail": "0 new weeks, not published yet: 5",
      "newest": "2026-10-19",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17436,7 +17436,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-15",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17447,7 +17447,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-15",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     },
     {
@@ -17458,7 +17458,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2024",
-     "last_ok": "2026-11-27 06:29",
+     "last_ok": "2026-11-27 23:30",
      "fails_in_row": 0
     }
    ]
@@ -17473,7 +17473,7 @@
   "s06_putcall.py": 0.02,
   "s06_robinhood.py": 0.03,
   "s06_polymarket.py": 0.0,
-  "s07_trend_page.py": 0.36
+  "s07_trend_page.py": 0.38
  },
  "ui": {
   "en": {
@@ -17662,23 +17662,24 @@
   "Not investment advice. Public market data and published filings only."
  ],
  "ops": {
-  "bytes": 9843201,
-  "fetch_seconds": 12.5,
+  "bytes": 9844013,
+  "fetch_seconds": 17.8,
   "heartbeat": "bubblewatch.last",
   "llm_calls": 0,
+  "llm_cost_usd": 0,
   "previous": {
    "exit": 0,
-   "run_utc": "2026-11-27T06:08:48+00:00",
-   "seconds": 23.7,
-   "test": "PASS | publish: pushed 7633281 | digest: sent, 0 change(s)"
+   "run_utc": "2026-11-27T06:29:06+00:00",
+   "seconds": 19.4,
+   "test": "PASS | publish: pushed da184a3 | digest: sent, 2 change(s)"
   },
   "requests": 35,
-  "run_utc": "2026-11-27T06:29:06+00:00",
+  "run_utc": "2026-11-27T23:30:01+00:00",
   "schedule": "Daily at 15:30 Pacific on the Mac mini",
   "sources": {
    "FAILED": 0,
-   "OK": 1,
-   "UNCHANGED": 29
+   "OK": 11,
+   "UNCHANGED": 19
   }
  },
  "sources": [
@@ -17687,10 +17688,10 @@
    "signals": [
     2
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-24",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-26",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17698,10 +17699,10 @@
    "signals": [
     2
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-24",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-25",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17713,7 +17714,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-07-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17724,7 +17725,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2017-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17735,7 +17736,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17746,7 +17747,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-20",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17757,7 +17758,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17768,7 +17769,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17779,7 +17780,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17791,7 +17792,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17800,10 +17801,10 @@
     3,
     7
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17811,10 +17812,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17822,10 +17823,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17833,10 +17834,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17844,10 +17845,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17855,10 +17856,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17866,10 +17867,10 @@
    "signals": [
     3
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
-   "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "newest": "2026-11-27",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17880,7 +17881,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17891,7 +17892,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17902,7 +17903,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17913,7 +17914,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-07-26",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17924,7 +17925,7 @@
    "status": "OK",
    "detail": "no filing since the last read",
    "newest": "2026-11-17",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17936,7 +17937,7 @@
    "status": "UNCHANGED",
    "detail": "0 new days",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17944,10 +17945,10 @@
    "signals": [
     6
    ],
-   "status": "UNCHANGED",
+   "status": "OK",
    "detail": "",
    "newest": "2026-11-27",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17958,7 +17959,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-27",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17969,7 +17970,7 @@
    "status": "UNCHANGED",
    "detail": "0 new weeks, not published yet: 3",
    "newest": "2026-11-02",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17980,7 +17981,7 @@
    "status": "UNCHANGED",
    "detail": "0 new weeks, not published yet: 5",
    "newest": "2026-10-19",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -17991,7 +17992,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-15",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -18002,7 +18003,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-15",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   },
   {
@@ -18013,7 +18014,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2024",
-   "last_ok": "2026-11-27 06:29",
+   "last_ok": "2026-11-27 23:30",
    "fails_in_row": 0
   }
  ],
