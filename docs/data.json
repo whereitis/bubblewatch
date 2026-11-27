@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-11-27 04:26 UTC",
+ "built_utc": "2026-11-27 06:09 UTC",
  "today": "2026-11-26",
  "stages": [
   {
@@ -16954,7 +16954,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-24",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -16965,7 +16965,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-24",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -16977,7 +16977,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -16988,7 +16988,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2017-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -16999,7 +16999,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17010,7 +17010,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-20",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17021,7 +17021,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     }
    ]
@@ -17058,7 +17058,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17069,7 +17069,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17081,7 +17081,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17093,7 +17093,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17104,7 +17104,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17115,7 +17115,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17126,7 +17126,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17137,7 +17137,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17148,7 +17148,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17159,7 +17159,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     }
    ]
@@ -17195,7 +17195,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17207,7 +17207,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17218,7 +17218,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17229,7 +17229,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17240,7 +17240,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-04-01",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     }
    ]
@@ -17277,7 +17277,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-07-26",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17288,7 +17288,7 @@
      "status": "OK",
      "detail": "no filing since the last read",
      "newest": "2026-11-17",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     }
    ]
@@ -17326,9 +17326,9 @@
       7
      ],
      "status": "UNCHANGED",
-     "detail": "0 new days, not out yet: 2026-11-26",
+     "detail": "0 new days",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17339,7 +17339,7 @@
      "status": "OK",
      "detail": "",
      "newest": "2026-11-27",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17350,7 +17350,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-27",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:09",
      "fails_in_row": 0
     }
    ]
@@ -17371,7 +17371,7 @@
    "scripts": [
     "s07_trend_page.py"
    ],
-   "seconds": 0.37,
+   "seconds": 0.38,
    "llm": null,
    "monitor": "Page test on every run. The heartbeat stops when a signal is past its age budget or a source fails 3 runs in a row",
    "tested": "Untested.",
@@ -17391,7 +17391,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17401,9 +17401,9 @@
       7
      ],
      "status": "UNCHANGED",
-     "detail": "0 new days, not out yet: 2026-11-26",
+     "detail": "0 new days",
      "newest": "2026-11-25",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17414,7 +17414,7 @@
      "status": "UNCHANGED",
      "detail": "0 new weeks, not published yet: 3",
      "newest": "2026-11-02",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:08",
      "fails_in_row": 0
     },
     {
@@ -17425,7 +17425,7 @@
      "status": "UNCHANGED",
      "detail": "0 new weeks, not published yet: 5",
      "newest": "2026-10-19",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:09",
      "fails_in_row": 0
     },
     {
@@ -17436,7 +17436,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-15",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:09",
      "fails_in_row": 0
     },
     {
@@ -17447,7 +17447,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2026-10-15",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:09",
      "fails_in_row": 0
     },
     {
@@ -17458,7 +17458,7 @@
      "status": "UNCHANGED",
      "detail": "",
      "newest": "2024",
-     "last_ok": "2026-11-27 04:26",
+     "last_ok": "2026-11-27 06:09",
      "fails_in_row": 0
     }
    ]
@@ -17473,7 +17473,7 @@
   "s06_putcall.py": 0.02,
   "s06_robinhood.py": 0.03,
   "s06_polymarket.py": 0.0,
-  "s07_trend_page.py": 0.37
+  "s07_trend_page.py": 0.38
  },
  "ui": {
   "en": {
@@ -17662,18 +17662,18 @@
   "Not investment advice. Public market data and published filings only."
  ],
  "ops": {
-  "bytes": 9843523,
-  "fetch_seconds": 16.1,
+  "bytes": 9843296,
+  "fetch_seconds": 16.2,
   "heartbeat": "bubblewatch.last",
   "llm_calls": 0,
   "previous": {
    "exit": 0,
-   "run_utc": "2026-11-27T03:40:02+00:00",
-   "seconds": 17.7,
-   "test": "PASS"
+   "run_utc": "2026-11-27T04:26:00+00:00",
+   "seconds": 19.7,
+   "test": "PASS | publish: pushed 7953066"
   },
-  "requests": 36,
-  "run_utc": "2026-11-27T04:26:00+00:00",
+  "requests": 35,
+  "run_utc": "2026-11-27T06:08:48+00:00",
   "schedule": "Daily at 15:30 Pacific on the Mac mini",
   "sources": {
    "FAILED": 0,
@@ -17690,7 +17690,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-24",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17701,7 +17701,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-24",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17713,7 +17713,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-07-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17724,7 +17724,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2017-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17735,7 +17735,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17746,7 +17746,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-20",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17757,7 +17757,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17768,7 +17768,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17779,7 +17779,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17791,7 +17791,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17803,7 +17803,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17814,7 +17814,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17825,7 +17825,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17836,7 +17836,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17847,7 +17847,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17858,7 +17858,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17869,7 +17869,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17880,7 +17880,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17891,7 +17891,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17902,7 +17902,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-04-01",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17913,7 +17913,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-07-26",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17924,7 +17924,7 @@
    "status": "OK",
    "detail": "no filing since the last read",
    "newest": "2026-11-17",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17934,9 +17934,9 @@
     7
    ],
    "status": "UNCHANGED",
-   "detail": "0 new days, not out yet: 2026-11-26",
+   "detail": "0 new days",
    "newest": "2026-11-25",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17947,7 +17947,7 @@
    "status": "OK",
    "detail": "",
    "newest": "2026-11-27",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17958,7 +17958,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-27",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:09",
    "fails_in_row": 0
   },
   {
@@ -17969,7 +17969,7 @@
    "status": "UNCHANGED",
    "detail": "0 new weeks, not published yet: 3",
    "newest": "2026-11-02",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:08",
    "fails_in_row": 0
   },
   {
@@ -17980,7 +17980,7 @@
    "status": "UNCHANGED",
    "detail": "0 new weeks, not published yet: 5",
    "newest": "2026-10-19",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:09",
    "fails_in_row": 0
   },
   {
@@ -17991,7 +17991,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-15",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:09",
    "fails_in_row": 0
   },
   {
@@ -18002,7 +18002,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2026-10-15",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:09",
    "fails_in_row": 0
   },
   {
@@ -18013,7 +18013,7 @@
    "status": "UNCHANGED",
    "detail": "",
    "newest": "2024",
-   "last_ok": "2026-11-27 04:26",
+   "last_ok": "2026-11-27 06:09",
    "fails_in_row": 0
   }
  ],
